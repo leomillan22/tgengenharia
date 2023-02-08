@@ -11,7 +11,7 @@
     align-items: center;
     justify-content: space-around;
     background-color: #0081FF ;
-    
+    font-family: 'Kanit', sans-serif;
     
 }
 
@@ -30,9 +30,9 @@
 }
 
 body{
-    background-image: url('../img/bg-body.png');
+    
+    background-image: url('../img/Ativo\ 114.png');
     background-size: 100%;
-    opacity: 80%;
 } 
 
 #section1{
@@ -44,4 +44,9 @@ body{
 }
 #tg-logo{
    height: 30vh;
+}
+
+#body-txt h1{
+    font-size: 43px;
+    margin-bottom: 1vh;
 }
