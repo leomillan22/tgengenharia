@@ -41,6 +41,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    height: 80vh;
 }
 #tg-logo{
    height: 30vh;
@@ -49,4 +50,28 @@ body{
 #body-txt h1{
     font-size: 43px;
     margin-bottom: 1vh;
+}
+
+#servicos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: blue;
+    padding: 2vh;
+    margin: 2vh 0 2vh 0;
+}
+
+.img-servicos{
+    height: 35vh;
+    width: 35vh;
+}
+
+.container p {
+    width: 30vh;
+}
+
+.container{
+    background-color: aliceblue;
+    padding: 2vh;
+    border-radius: 5px;
 }
