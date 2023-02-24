@@ -27,7 +27,7 @@
     text-align: center;
     font-family: 'Kanit', sans-serif;
     color: white;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 body{
@@ -50,7 +50,7 @@ body{
    height: 30vh;
 }
 #body-txt{
-    font-size: 40px;
+    font-size: 55px;
     font-family: 'Kanit', sans-serif;
     font-weight: 600;
 }
@@ -63,14 +63,16 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: blue;
+    background: url(../img/fundo-servicos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 2vh;
     margin: 2vh 0 2vh 0;
 }
 
 .img-servicos{
     height: 35vh;
-    width: 35vh;
+    width: 100%;
 }
 
 .container p {
@@ -81,4 +83,43 @@ body{
     background-color: aliceblue;
     padding: 2vh;
     border-radius: 5px;
+}
+.solucoes-container{
+    max-width: 90%;
+}
+
+
+.box{
+    height: 1vh;
+    width: 20vh;
+    background-color: #0081FF;
+    margin: 1vh 0 1vh 0;
+    border-radius: 2px;
+}
+
+#quemSomos{
+    background: url(../img/quemSomos-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2vh;
+}
+
+.qs-container{
+    width: 35%;
+    height: 100%;
+}
+
+.valores-container{
+    width: 35%;
+    height: 100%;
+}
+
+.antes-depois{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
 }
