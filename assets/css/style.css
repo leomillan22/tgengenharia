@@ -98,13 +98,14 @@ body{
 }
 
 #quemSomos{
-    background: url(../img/quemSomos-bg.png);
+    background: url(../img/quemsomos-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     padding: 2vh;
+    font-weight: bold;
 }
 
 .qs-container{
@@ -118,8 +119,28 @@ body{
 }
 
 .antes-depois{
+    margin-top: 5vh;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     font-size: 20px;
+}
+.ad-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.antes-img img{
+    display: flex;
+    flex-direction: column;
+    margin: 3vh;
+    height: 50vh;
+    width: 50vh;
+}
+.depois-img img{
+    display: flex;
+    flex-direction: column;
+    margin: 3vh;
+    height: 50vh;
+    width: 50vh;
 }
