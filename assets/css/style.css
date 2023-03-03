@@ -144,3 +144,11 @@ body{
     height: 50vh;
     width: 50vh;
 }
+
+footer{
+    background: #213A58;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #c7d0d9;
+}
