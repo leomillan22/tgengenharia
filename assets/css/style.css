@@ -39,6 +39,7 @@ body{
     color: #0081FF;
 }
 #section1{
+    background-image: url(../img/Design\ sem\ nome\ \(1\).png);
     padding-top: 5vh;
     border-top: 5vh;
     display: flex;
@@ -47,9 +48,10 @@ body{
     height: 80vh;
 }
 #tg-logo{
-   height: 30vh;
+   height: 35vh;
 }
 #body-txt{
+    margin: 4vh 0 0 7vh;
     font-size: 55px;
     font-family: 'Kanit', sans-serif;
     font-weight: 600;
@@ -61,31 +63,43 @@ body{
 
 #servicos{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
     background: url(../img/fundo-servicos.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 2vh;
-    margin: 2vh 0 2vh 0;
+    margin: 0 0 2vh 0;
+}
+.serv-container1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* MEXER AQUI PRA FAZER RESPONSIVO */
+#Servicos{
+    width: 30%;
+}
+.serv-container2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .img-servicos{
     height: 35vh;
     width: 100%;
+    border-radius: 10px;
 }
 
-.container p {
-    width: 30vh;
-}
 
 .container{
     background-color: aliceblue;
     padding: 2vh;
     border-radius: 5px;
-}
-.solucoes-container{
-    max-width: 90%;
 }
 
 
@@ -130,25 +144,102 @@ body{
     align-items: center;
     justify-content: space-evenly;
 }
-.antes-img img{
+.antes-img{
     display: flex;
-    flex-direction: column;
-    margin: 3vh;
-    height: 50vh;
-    width: 50vh;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
-.depois-img img{
-    display: flex;
-    flex-direction: column;
+.antes-img img{
     margin: 3vh;
-    height: 50vh;
-    width: 50vh;
+    height: 40vh;
+    width: 43vh;
+}
+/* BOTAO WPP */
+#div-fixa{
+    position: fixed;
+    bottom: 20px;
+    margin: 0 20px;
 }
 
+#div-fixa img{
+    width: 10vh;
+    height: 10vh;
+}
+/* FOOTER */
 footer{
     background: #213A58;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     color: #c7d0d9;
+    height: 20vh;
+}
+
+.Sobre img{
+    width: 20vh;
+}
+.Links{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (max-width:720px){
+    #tg-logo{
+        height: 23vh;
+        margin: 0 0 0 -8vh;
+    }
+    #body-txt p{
+        flex-wrap: wrap;
+        display: none;
+    }
+    #section1{
+        background-image: url(../img/bg-media.png);
+        background-size: cover;
+    }
+    #Servicos{
+        width: 100%;
+        margin-bottom: 2vh;
+    }
+    .serv-container1{
+        flex-wrap: wrap;
+    }
+    .serv-container2{
+        flex-wrap: wrap;
+    }
+
+    #quemSomos{
+        flex-wrap: wrap;
+    }
+    .qs-container{
+        width: 100%;
+    }
+    .qs-container p{
+        font-size: 20px;
+        font-weight:bolder
+    }
+    .valores-container{
+        width: 90%;
+    }
+    .valores-container p{
+        font-size: 20px;
+    }
+
+    .antes-img{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #projetos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    footer{
+        flex-direction: column;
+        height: auto;
+    }
 }
