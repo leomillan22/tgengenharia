@@ -32,14 +32,14 @@
 
 body{
     
-    background-image: url('../img/Ativo\ 114.png');
+    background: #c7d0d9;
     background-size: 100%;
 } 
 .azul{
     color: #0081FF;
 }
 #section1{
-    background-image: url(../img/Design\ sem\ nome\ \(1\).png);
+    background-image: url(../img/bg-setion1.png);
     padding-top: 5vh;
     border-top: 5vh;
     display: flex;
@@ -90,6 +90,7 @@ body{
 }
 
 .img-servicos{
+    margin-top: 2vh;
     height: 35vh;
     width: 100%;
     border-radius: 10px;
@@ -100,6 +101,7 @@ body{
     background-color: aliceblue;
     padding: 2vh;
     border-radius: 5px;
+    height: 25vh;
 }
 
 
@@ -182,7 +184,12 @@ footer{
     display: flex;
     flex-direction: column;
 }
-
+.social-media a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #c7d0d9;
+}
 
 /* MEDIA QUERIES */
 
@@ -240,6 +247,10 @@ footer{
     }
     footer{
         flex-direction: column;
+        height: auto;
+    }
+
+    .container{
         height: auto;
     }
 }
