@@ -27,7 +27,7 @@
     text-align: center;
     font-family: 'Kanit', sans-serif;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 body{
@@ -39,7 +39,7 @@ body{
     color: #0081FF;
 }
 #section1{
-    background-image: url(../img/bg-setion1.png);
+    background-image: url(../img/Design\ sem\ nome\ \(7\).png);
     padding-top: 5vh;
     border-top: 5vh;
     display: flex;
@@ -82,6 +82,7 @@ body{
 /* MEXER AQUI PRA FAZER RESPONSIVO */
 #Servicos{
     width: 30%;
+    font-size: 15px;
 }
 .serv-container2{
     display: flex;
@@ -101,7 +102,7 @@ body{
     background-color: aliceblue;
     padding: 2vh;
     border-radius: 5px;
-    height: 25vh;
+    height: 16rem;
 }
 
 
@@ -122,6 +123,7 @@ body{
     justify-content: space-evenly;
     padding: 2vh;
     font-weight: bold;
+    font-size: 15px;
 }
 
 .qs-container{
@@ -174,7 +176,13 @@ footer{
     align-items: center;
     justify-content: space-evenly;
     color: #c7d0d9;
-    height: 20vh;
+    height: auto;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.Links a{
+    color: #c7d0d9;
 }
 
 .Sobre img{
@@ -219,9 +227,11 @@ footer{
 
     #quemSomos{
         flex-wrap: wrap;
+        background-image: none;
     }
     .qs-container{
         width: 100%;
+        margin-bottom: 3vh;
     }
     .qs-container p{
         font-size: 20px;
@@ -247,10 +257,15 @@ footer{
     }
     footer{
         flex-direction: column;
-        height: auto;
     }
-
     .container{
         height: auto;
+    }
+    .navbar-itens{
+        display: none;
+    }
+    #navbar{
+        display: block;
+        align-items: start;
     }
 }
